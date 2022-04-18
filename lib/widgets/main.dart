@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // To make the Game fullscreen
-    SystemChrome.setEnabledS
+    SystemChrome.setEnabledSy
     
        
         
