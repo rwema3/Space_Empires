@@ -125,4 +125,5 @@ class MyApp extends StatelessWidget{
                 return MaterialPageRoute(
                   builder: (context) => StoryScreenI(_orientation),
                 );
+              } else if (routeSettings.name == AttackScreen.route) {
    
