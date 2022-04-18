@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget{
 
         // It is lazily build, i.e unless someone requests it, it won't be created
         // It is requested for first Time on gameScreen (as we navigate from characterSelectionScreen)
-        // As soon as gameScreen is call  
+        // As soon as gameScreen is cal  
             
            
           
