@@ -128,4 +128,5 @@ class MyApp extends StatelessWidget{
               } else if (routeSettings.name == AttackScreen.route) {
                 final args = routeSettings.arguments! as Map;
                 final Planet _planet = args['planet'] as Planet;
+                final Player _attacker = args['attacker'] as Player;
    
