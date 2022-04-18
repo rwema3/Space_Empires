@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-            theme: ThemeData.da
+            theme: ThemeData.dar
               
               
                
