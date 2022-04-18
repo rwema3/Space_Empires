@@ -62,7 +62,8 @@ class MyApp extends StatelessWidget{
               scaffoldBackgroundColor: Colors.black,
               primaryColor: Colors.indigo,
               accentColor: Palette.deepBlue,
-              textTheme: TextTheme
+              textTheme: TextTheme(
+
                  
                  
 
