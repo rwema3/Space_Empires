@@ -109,4 +109,5 @@ class MyApp extends StatelessWidget{
               GameWonScreen.route: (ctx) => GameWonScreen(),
             },
             onGenerateRoute: (routeSettings) {
+              if (routeSettings.name == InfoScreen.route) {
    
