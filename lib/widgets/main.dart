@@ -71,6 +71,6 @@ class MyApp extends StatelessWidget{
                     fontSize: 10.sp,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
-              
+              )
                
                     
