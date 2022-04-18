@@ -6,19 +6,11 @@
 
 ![](https://user-images.githubusercontent.com/62766656/123627533-c11e8f00-d82f-11eb-87c3-4aef12d03b1c.png)
 
-<a href="https://play.google.com/store/apps/details?id=com.satyamx64.space_empires">
-<img src = "https://user-images.githubusercontent.com/62766656/123628002-47d36c00-d830-11eb-930f-877afaca2b54.png" width = "200">
-</a>
-
 
 ### Introduction 🚀
 
 > Space Empires
 A 4X Space themed Strategy Game made with Flutter
-
-Complete Rules and Instruction can be accessed from the game or [here](https://docs.google.com/document/d/1LX5RmtJPIekRA4S_pJsYIj4z-AL53fuXrVM-1CW9X1M/edit?usp=sharing)
-
-Before we start, you can take a look at the app:
 
 - [Demo Video](https://www.youtube.com/watch?v=5eod02si8Vo&ab_channel=satyamsharma)
 
