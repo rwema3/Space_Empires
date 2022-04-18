@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget{
             return game.currentPlayer;
           },
           create: (ctx) {
-            return n
+            return nu
           
         
       
