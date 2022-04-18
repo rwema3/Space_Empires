@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget{
         ChangeNotifierProxyProvider<Game, Player?>(
           update: (_, game, __) {
             return game.currentPlayer;
-          }
+          
             
              
           
