@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget{
         // It is requested for first Time on gameScreen (as we navigate from characterSelectionScreen)
         // As soon as gameScreen is called create is called
         // But since we notify GameData too (in characterSelectionScreen)
-        // So update is calle
+        // So update is call
           
        
               
