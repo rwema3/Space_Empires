@@ -24,7 +24,7 @@ import 'services/player/player.dart';
 import 'utility/constants.dart';
 
 void main() {
-  runApp(MyA
+  runApp(My
 
 
      
