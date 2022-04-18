@@ -17,7 +17,7 @@ A 4X Space themed Strategy Game made with Flutter
 
 >Bagirishya Rwema Dominique
 
-- [Rwema](https://docs.google.com/document/d/1t160rPKv3MEou_8PcyNJRNWqaIAATsgcdPjZVuQFy90/edit?usp=sharing)
+- [Rwema](https://twitter.com/document/d/1t160rPKv3MEou_8PcyNJRNWqaIAATsgcdPjZVuQFy90/edit?usp=sharing)
 
 
 ### Usage 🎨
