@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget{
         ),
       ],
       builder: (_, __) {
-        return Sizer(builder: (context, orientation, deviceTyp 
+        return Sizer(builder: (context, orientation, deviceTy 
            
              
               
