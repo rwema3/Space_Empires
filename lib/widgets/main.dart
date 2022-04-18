@@ -76,4 +76,5 @@ class MyApp extends StatelessWidget{
                 color: Colors.white,
                 size: 18.sp,
               ),
+              tabBarTheme: TabBarTheme(
    
