@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget{
     // To make the Game fullscreen
     SystemChrome.setEnabledSystemUIOverlays([]);
     return MultiProvider(
-      pr 
+      pro 
         
            
         
