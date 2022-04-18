@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget{
           update: (_, game, __) {
             return game.currentPlayer;
           },
-          creat  
+          create  
              
           
         
