@@ -100,5 +100,4 @@ class MyApp extends StatelessWidget{
               SplashScreen.route: (ctx) => SplashScreen(),
               StoryScreenII.route: (ctx) => StoryScreenII(),
               StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
    
