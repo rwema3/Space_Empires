@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget{
         ),
 
         // It is lazily build, i.e unless someone requests it, it won't be created
-        // It i     
+        // It is     
                
             
            
