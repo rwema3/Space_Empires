@@ -17,7 +17,7 @@ A 4X Space themed Strategy Game made with Flutter
 
 >Bagirishya Rwema Dominique
 
-- [Rwema](https://twitter.com/document/d/1t160rPKv3MEou_8PcyNJRNWqaIAATsgcdPjZVuQFy90/edit?usp=sharing)
+- [Rwema](https://twitter.com/R_w_e_m_a)
 
 
 ### Usage 🎨
@@ -26,7 +26,7 @@ To clone and run this application, you'll need [git](https://git-scm.com) and [f
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/SatyamX64/space_empires
+$ git clone https://github.com/rwema3/Space_Empires
 
 # Go into the repository
 $ cd space_empires
@@ -145,8 +145,7 @@ widgets | Contains UI Blocks and Other Functional Elements
 
 ![planet_stats_landscape](https://user-images.githubusercontent.com/62766656/120899479-90db3a80-c64d-11eb-9f1d-9272da8bd67b.jpg) ![planet_upgrades_landscape](https://user-images.githubusercontent.com/62766656/120899484-989adf00-c64d-11eb-9908-b05007a5b310.jpg) ![planet_defense_landscape](https://user-images.githubusercontent.com/62766656/120899489-a05a8380-c64d-11eb-9b49-d8e9336d6abc.jpg)
 
-
-
+## God Bless You, Murakoze!
 
 
 
