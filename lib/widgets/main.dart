@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget{
       providers: [
         ChangeNotifierProvider<Game>.value(
           value: Game(),
-        )
+        
 
             
             
