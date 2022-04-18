@@ -73,4 +73,7 @@ class MyApp extends StatelessWidget{
                     color: Colors.white),
               ),
               iconTheme: IconThemeData(
-                color: Colors.white   
+                color: Colors.white,
+                size: 18.sp,
+              ),
+   
