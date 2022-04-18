@@ -120,5 +120,4 @@ class MyApp extends StatelessWidget{
                   builder: (context) => PlanetScreen(_planetName),
                 );
               } else if (routeSettings.name == StoryScreenI.route) {
-                final Orientation _orientation =
    
