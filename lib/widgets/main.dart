@@ -117,6 +117,4 @@ class MyApp extends StatelessWidget{
                 final PlanetName _planetName =
                     routeSettings.arguments! as PlanetName;
                 return MaterialPageRoute(
-                  builder: (context) => PlanetScreen(_planetName),
-                );
    
