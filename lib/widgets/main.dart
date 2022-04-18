@@ -108,5 +108,4 @@ class MyApp extends StatelessWidget{
               GameLostScreen.route: (ctx) => GameLostScreen(),
               GameWonScreen.route: (ctx) => GameWonScreen(),
             },
-            onGenerateRoute: (routeSettings) {
    
