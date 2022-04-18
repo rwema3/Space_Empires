@@ -115,4 +115,5 @@ class MyApp extends StatelessWidget{
                         characterSelected: routeSettings.arguments! as bool));
               } else if (routeSettings.name == PlanetScreen.route) {
                 final PlanetName _planetName =
+                    routeSettings.arguments! as PlanetName;
    
