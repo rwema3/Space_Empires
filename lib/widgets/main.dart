@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget{
         // So update is called too
         // finally the value obtained is provided in gameScreen
         ChangeNotifierProxyProvider<Game, Player?>(
-          up    
+          u    
             
           
             
