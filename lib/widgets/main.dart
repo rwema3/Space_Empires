@@ -27,7 +27,7 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWid  @override
+class MyApp extends StatelessWidg  @override
  
        
     
