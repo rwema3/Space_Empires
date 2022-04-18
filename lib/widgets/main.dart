@@ -88,4 +88,5 @@ class MyApp extends StatelessWidget{
                   padding: MaterialStateProperty.all<EdgeInsets>(
                       EdgeInsets.all(4.sp)),
                   backgroundColor:
+                      MaterialStateProperty.all<Color>(Palette.deepBlue),
    
