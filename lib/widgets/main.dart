@@ -90,9 +90,4 @@ class MyApp extends StatelessWidget{
                   backgroundColor:
                       MaterialStateProperty.all<Color>(Palette.deepBlue),
                   textStyle: MaterialStateProperty.all<TextStyle>(
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
-                  ),
-                ),
-              ),
-            ),
    
