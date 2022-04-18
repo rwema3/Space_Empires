@@ -122,5 +122,4 @@ class MyApp extends StatelessWidget{
               } else if (routeSettings.name == StoryScreenI.route) {
                 final Orientation _orientation =
                     routeSettings.arguments! as Orientation;
-                return MaterialPageRoute(
    
