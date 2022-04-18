@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget{
                 headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
                 button: TextStyle(
                     fontSize: 10.sp,
-                    fontWeight: FontWeight.b
+                    fontWeight: FontWeight.bo
                      
               
                
