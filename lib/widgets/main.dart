@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget{
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: Colors.black,
-              primaryColor: Colors.ind
+              primaryColor: Colors.indi
                
              
                  
