@@ -105,5 +105,4 @@ class MyApp extends StatelessWidget{
                   CharacterSelectionScreen(),
               GameScreen.route: (ctx) => GameScreen(),
               AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
-              GameLostScreen.route: (ctx) => GameLostScreen(),
    
