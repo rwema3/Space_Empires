@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget{
       builder: (_, __) {
         return Sizer(builder: (context, orientation, deviceType) {
           return MaterialApp(
-            debugShowCheckedMo 
+            debugShowCheckedMod 
               
            
               
