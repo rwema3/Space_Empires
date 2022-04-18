@@ -17,7 +17,7 @@ import 'models/planet_model.dart';
 import 'screens/attack/attack_conclusion_screen.dart';
 import 'screens/attack/attack_screen.dart';
 import 'screens/help/info_screen.dart';
-import 'screens/story/story_iii.dart'
+import 'screens/story/story_iii.dart
 
  
  
