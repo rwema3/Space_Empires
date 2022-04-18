@@ -78,4 +78,5 @@ class MyApp extends StatelessWidget{
               ),
               tabBarTheme: TabBarTheme(
                 labelPadding: EdgeInsets.all(4.sp),
+                labelStyle:
    
