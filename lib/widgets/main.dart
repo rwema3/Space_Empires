@@ -132,6 +132,4 @@ class MyApp extends StatelessWidget{
                 return MaterialPageRoute(
                   builder: (context) =>
                       AttackScreen(attacker: _attacker, planet: _planet),
-                );
-              }
    
