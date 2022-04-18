@@ -27,7 +27,7 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends State  @overri
+class MyApp extends State  @overrid
  
        
     
