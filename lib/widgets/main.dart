@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget{
     SystemChrome.setEnabledSystemUIOverlays([]);
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider<Game>.value(
+        ChangeNotifierProvider<Game>.value
            
         
 
