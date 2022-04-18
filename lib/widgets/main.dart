@@ -30,7 +30,7 @@ void main() {
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    // To make the Game fulls
+    // To make the Game full
     
     
        
