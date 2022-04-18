@@ -81,6 +81,4 @@ class MyApp extends StatelessWidget{
                 labelStyle:
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
                 unselectedLabelStyle:
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
-              ),
    
