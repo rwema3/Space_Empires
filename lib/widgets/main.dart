@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget{
         // But since we notify GameData too (in characterSelectionScreen)
         // So update is called too
         // finally the value obtained is provided in gameScreen
-        Change 
+        Chang 
               
             
           
