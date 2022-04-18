@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget{
                 headline4: TextStyle(fontSize: 28.sp, color: Colors.white),
                 bodyText2: TextStyle(fontSize: 12.sp, color: Colors.white),
                 headline5: TextStyle(fontSize: 18.sp, color: Colors.white),
-                headline6: TextStyle(fontS  
+                headline6: TextStyle(font  
                 
                     
                     
