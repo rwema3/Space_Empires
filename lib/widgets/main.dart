@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget{
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
-              scaffoldBackgroundColor: Colors.blac
+              scaffoldBackgroundColor: Colors.bla
               
                
              
