@@ -134,11 +134,4 @@ class MyApp extends StatelessWidget{
                       AttackScreen(attacker: _attacker, planet: _planet),
                 );
               }
-              return null;
-            },
-          );
-        });
-      },
-    );
-  }
-}
+   
