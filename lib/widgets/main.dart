@@ -9,6 +9,7 @@ import './screens/game_end/game_lost.dart';
 import './screens/game_end/game_won.dart';
 import './screens/game_screen.dart';
 import './screens/planet_screen.dart';
+import './screens/splash_screen.dart';
  
  
 
