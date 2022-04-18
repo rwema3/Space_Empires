@@ -113,5 +113,4 @@ class MyApp extends StatelessWidget{
                 return MaterialPageRoute(
                     builder: (context) => InfoScreen(
                         characterSelected: routeSettings.arguments! as bool));
-              } else if (routeSettings.name == PlanetScreen.route) {
    
