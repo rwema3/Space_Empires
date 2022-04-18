@@ -119,4 +119,5 @@ class MyApp extends StatelessWidget{
                 return MaterialPageRoute(
                   builder: (context) => PlanetScreen(_planetName),
                 );
+              } else if (routeSettings.name == StoryScreenI.route) {
    
