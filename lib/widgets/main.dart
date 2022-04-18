@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget{
                 button: TextStyle(
                     fontSize: 10.sp,
                     fontWeight: FontWeight.bold,
-                    colo 
+                    color 
               
                
                     
