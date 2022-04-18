@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget{
           value: Game(),
         ),
 
-        // It is lazily build, i.e unless someone requests it,
+        // It is lazily build, i.e unless someone requests it
             
                
             
