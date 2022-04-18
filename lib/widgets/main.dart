@@ -84,5 +84,4 @@ class MyApp extends StatelessWidget{
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
               ),
               elevatedButtonTheme: ElevatedButtonThemeData(
-                style: ButtonStyle(
    
