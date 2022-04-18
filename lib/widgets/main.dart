@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-            theme: ThemeData.dark().copyWit
+            theme: ThemeData.dark().copyWith
               
               
                
