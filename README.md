@@ -12,14 +12,12 @@
 > Space Empires
 A 4X Space themed Strategy Game made with Flutter
 
-- [Demo Video](https://www.youtube.com/watch?v=5eod02si8Vo&ab_channel=satyamsharma)
 
+### Developer 🙏
 
-### Attributions 🙏
+>Bagirishya Rwema Dominique
 
-All the assets used in this product belong to their rightful owners and were available for Non-Commercial Use
-
-- [Link to the resources](https://docs.google.com/document/d/1t160rPKv3MEou_8PcyNJRNWqaIAATsgcdPjZVuQFy90/edit?usp=sharing)
+- [Rwema](https://docs.google.com/document/d/1t160rPKv3MEou_8PcyNJRNWqaIAATsgcdPjZVuQFy90/edit?usp=sharing)
 
 
 ### Usage 🎨
