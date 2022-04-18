@@ -86,4 +86,5 @@ class MyApp extends StatelessWidget{
               elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ButtonStyle(
                   padding: MaterialStateProperty.all<EdgeInsets>(
+                      EdgeInsets.all(4.sp)),
    
