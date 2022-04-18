@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget{
         // As soon as gameScreen is called create is called
         // But since we notify GameData too (in characterSelectionScreen)
         // So update is called to
-        // finally the value obtained is provided in gameScr
+        // finally the value obtained is provided in gameScre
        
               
             
