@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget{
         // finally the value obtained is provided in gameScreen
         ChangeNotifierProxyProvider<Game, Player?>(
           update: (_, game, __) {
-            return game.curre
+            return game.curren
           
             
              
