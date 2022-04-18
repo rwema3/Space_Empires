@@ -126,5 +126,4 @@ class MyApp extends StatelessWidget{
                   builder: (context) => StoryScreenI(_orientation),
                 );
               } else if (routeSettings.name == AttackScreen.route) {
-                final args = routeSettings.arguments! as Map;
    
