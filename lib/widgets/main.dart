@@ -129,4 +129,5 @@ class MyApp extends StatelessWidget{
                 final args = routeSettings.arguments! as Map;
                 final Planet _planet = args['planet'] as Planet;
                 final Player _attacker = args['attacker'] as Player;
+                return MaterialPageRoute(
    
