@@ -27,7 +27,7 @@ void main() {
   runApp(MyApp());
 }
 
-class MyA    
+class My    
  
        
     
