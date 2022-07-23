@@ -64,7 +64,6 @@ class MyApp extends StatelessWidget{
               accentColor: Palette.deepBlue,
               textTheme: TextTheme(
                 headline4: TextStyle(fontSize: 28.sp, color: Colors.white),
-                bodyText2: TextStyle(fontSize: 12.sp, color: Colors.white),
               
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
                 unselectedLabelStyle:
