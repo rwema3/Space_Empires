@@ -60,6 +60,9 @@ class MyApp extends StatelessWidget{
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: Colors.black,
+              
+                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
+                unselectedLabelStyle:
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
               ),
               elevatedButtonTheme: ElevatedButtonThemeData(
