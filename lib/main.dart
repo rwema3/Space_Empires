@@ -60,8 +60,6 @@ class MyApp extends StatelessWidget{
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: Colors.black,
-              elevatedButtonTheme: ElevatedButtonThemeData(
-                style: ButtonStyle(
                   padding: MaterialStateProperty.all<EdgeInsets>(
                       EdgeInsets.all(4.sp)),
                   backgroundColor:
