@@ -74,6 +74,8 @@ class MyApp extends StatelessWidget{
               ),
               iconTheme: IconThemeData(
                 color: Colors.white,
+                size: 18.sp,
+              ),
               
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
                 unselectedLabelStyle:
