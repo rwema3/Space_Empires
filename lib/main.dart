@@ -70,8 +70,6 @@ class MyApp extends StatelessWidget{
                 button: TextStyle(
                     fontSize: 10.sp,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
               
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
                 unselectedLabelStyle:
