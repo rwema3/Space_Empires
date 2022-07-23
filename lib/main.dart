@@ -76,8 +76,7 @@ class MyApp extends StatelessWidget{
                 color: Colors.white,
                 size: 18.sp,
               ),
-              tabBarTheme: TabBarTheme(
-                
+              
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
                 unselectedLabelStyle:
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
