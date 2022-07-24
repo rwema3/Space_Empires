@@ -58,9 +58,6 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-                color: Colors.white,
-                size: 18.sp,
-              ),
               tabBarTheme: TabBarTheme(
                 labelPadding: EdgeInsets.all(4.sp),
                 labelStyle:
