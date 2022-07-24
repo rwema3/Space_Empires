@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-                      EdgeInsets.all(4.sp)),
+ s                     EdgeInsets.all(4.sp)),
                   backgroundColor:
                       MaterialStateProperty.all<Color>(Palette.deepBlue),
                   textStyle: MaterialStateProperty.all<TextStyle>(
