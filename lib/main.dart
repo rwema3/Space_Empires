@@ -60,6 +60,7 @@ class MyApp extends StatelessWidget{
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: Colors.black,
+              primaryColor: Colors.indigo,
  
                 headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
                 button: TextStyle(
