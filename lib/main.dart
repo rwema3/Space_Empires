@@ -59,6 +59,7 @@ class MyApp extends StatelessWidget{
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
             theme: ThemeData.dark().copyWith(
+              scaffoldBackgroundColor: Colors.black,
  
                 headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
                 button: TextStyle(
