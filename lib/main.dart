@@ -58,9 +58,6 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
-                unselectedLabelStyle:
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
               ),
               elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ButtonStyle(
