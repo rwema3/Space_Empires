@@ -58,6 +58,7 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
+            theme: ThemeData.dark().copyWith(
  
                 headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
                 button: TextStyle(
