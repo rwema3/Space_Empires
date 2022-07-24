@@ -58,8 +58,6 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-              ),
-              iconTheme: IconThemeData(
                 color: Colors.white,
                 size: 18.sp,
               ),
