@@ -61,7 +61,8 @@ class MyApp extends StatelessWidget{
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: Colors.black,
               primaryColor: Colors.indigo,
- 
+              accentColor: Palette.deepBlue,
+\
                 headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
                 button: TextStyle(
                     fontSize: 10.sp,
