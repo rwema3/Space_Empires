@@ -38,10 +38,10 @@ class MyApp extends StatelessWidget{
           value: Game(),
         ),
 
-        // It is lazily build, i.e unless someone requests it, it won't be created
+        // It is lazily build, i.e unless someone requests it, it won't be created.
         // It is requested for first Time on gameScreen (as we navigate from characterSelectionScreen)
         // As soon as gameScreen is called create is called
-        // But since we notify GameData too (in characterSelectionScreen)
+        // But since we notify or tell GameData too (in characterSelectionScreen)
         // So update is called too
         // finally the value obtained is provided in gameScreen
         ChangeNotifierProxyProvider<Game, Player?>(
