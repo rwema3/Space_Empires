@@ -70,8 +70,6 @@ class MyApp extends StatelessWidget{
                 button: TextStyle(
                     fontSize: 10.sp,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
               
               StoryScreenIII.route: (ctx) => StoryScreenIII(),
               WelcomeScreen.route: (ctx) => WelcomeScreen(),
