@@ -72,8 +72,6 @@ class MyApp extends StatelessWidget{
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-              iconTheme: IconThemeData(
-                color: Colors.white,
               
               elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ButtonStyle(
