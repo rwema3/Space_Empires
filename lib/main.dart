@@ -73,6 +73,7 @@ class MyApp extends StatelessWidget{
                     color: Colors.white),
               ),
               
+              StoryScreenII.route: (ctx) => StoryScreenII(),
               StoryScreenIII.route: (ctx) => StoryScreenIII(),
               WelcomeScreen.route: (ctx) => WelcomeScreen(),
               CharacterSelectionScreen.route: (ctx) =>
