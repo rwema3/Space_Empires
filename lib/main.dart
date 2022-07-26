@@ -72,7 +72,6 @@ class MyApp extends StatelessWidget{
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-                style: ButtonStyle(
                   padding: MaterialStateProperty.all<EdgeInsets>(
                       EdgeInsets.all(4.sp)),
                   backgroundColor:
