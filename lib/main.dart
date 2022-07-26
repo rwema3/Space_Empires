@@ -72,11 +72,7 @@ class MyApp extends StatelessWidget{
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-                  ),
-                ),
-              ),
-            ),
-            home: SplashScreen(),
+              
             routes: {
               SplashScreen.route: (ctx) => SplashScreen(),
               StoryScreenII.route: (ctx) => StoryScreenII(),
