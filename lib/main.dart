@@ -93,6 +93,36 @@ class MyApp extends StatelessWidget{
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
                   ),
                 ),
+              ),
+            ),
+            home: SplashScreen(),
+            routes: {
+              SplashScreen.route: (ctx) => SplashScreen(),
+              StoryScreenII.route: (ctx) => StoryScreenII(),
+              StoryScreenIII.route: (ctx) => StoryScreenIII(),
+              WelcomeScreen.route: (ctx) => WelcomeScreen(),
+              CharacterSelectionScreen.route: (ctx) =>
+                  CharacterSelectionScreen(),
+              GameScreen.route: (ctx) => GameScreen(),
+              AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
+              
+            onGenerateRoute: (routeSettings) {
+              if (routeSettings.name == InfoScreen.route) {
+                return MaterialPageRoute(
+                    builder: (context) => InfoScreen(
+                        characterSelected: routeSettings.arguments! as bool));
+              } else if (routeSettings.name == PlanetScreen.route) {
+                final PlanetName _planetName =
+                    routeSettings.arguments! as PlanetName;
+                return MaterialPageRoute(
+                  builder: (context) => PlanetScreen(_planetName),
+                );
+              } else if (routeSettings.name == StoryScreenI.route) {
+                final Orientation _orientation =
+                    routeSettings.arguments! as Orientation;
+                return MaterialPageRoute(
+                  builder: (context) => StoryScreenI(_orientation),
+                );
               } else if (routeSettings.name == AttackScreen.route) {
                 final args = routeSettings.arguments! as Map;
                 final Planet _planet = args['planet'] as Planet;
