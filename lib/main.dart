@@ -78,3 +78,18 @@ class MyApp extends StatelessWidget{
               ),
               tabBarTheme: TabBarTheme(
                 labelPadding: EdgeInsets.all(4.sp),
+                labelStyle:
+                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
+                unselectedLabelStyle:
+                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
+              ),
+              elevatedButtonTheme: ElevatedButtonThemeData(
+                style: ButtonStyle(
+                  padding: MaterialStateProperty.all<EdgeInsets>(
+                      EdgeInsets.all(4.sp)),
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(Palette.deepBlue),
+                  textStyle: MaterialStateProperty.all<TextStyle>(
+                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
+                  ),
+                ),
