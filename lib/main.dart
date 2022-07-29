@@ -50,11 +50,3 @@ class MyApp extends StatelessWidget{
           },
           create: (ctx) {
             return null;
-          },
-        ),
-      ],
-      builder: (_, __) {
-        return Sizer(builder: (context, orientation, deviceType) {
-          return MaterialApp(
-            debugShowCheckedModeBanner: false,
-            title: 'Space Empires',
