@@ -15,3 +15,21 @@ import './screens/story/story_ii.dart';
 import './screens/welcome_screen.dart';
 import 'models/planet_model.dart';
 import 'screens/attack/attack_conclusion_screen.dart';
+import 'screens/attack/attack_screen.dart';
+import 'screens/help/info_screen.dart';
+import 'screens/story/story_iii.dart';
+import 'services/game.dart';
+import 'services/planet/planet.dart';
+import 'services/player/player.dart';
+import 'utility/constants.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // To make the Game fullscreen
+    SystemChrome.setEnabledSystemUIOverlays([]);
+    return MultiProvider(
