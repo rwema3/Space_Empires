@@ -93,18 +93,6 @@ class MyApp extends StatelessWidget{
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
                   ),
                 ),
-              ),
-            ),
-            home: SplashScreen(),
-            routes: {
-              SplashScreen.route: (ctx) => SplashScreen(),
-              StoryScreenII.route: (ctx) => StoryScreenII(),
-              StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
-              CharacterSelectionScreen.route: (ctx) =>
-                  CharacterSelectionScreen(),
-              GameScreen.route: (ctx) => GameScreen(),
-              AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
               } else if (routeSettings.name == AttackScreen.route) {
                 final args = routeSettings.arguments! as Map;
                 final Planet _planet = args['planet'] as Planet;
