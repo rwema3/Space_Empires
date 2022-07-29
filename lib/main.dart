@@ -93,20 +93,3 @@ class MyApp extends StatelessWidget{
                     TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
                   ),
                 ),
-              } else if (routeSettings.name == AttackScreen.route) {
-                final args = routeSettings.arguments! as Map;
-                final Planet _planet = args['planet'] as Planet;
-                final Player _attacker = args['attacker'] as Player;
-                return MaterialPageRoute(
-                  builder: (context) =>
-                      AttackScreen(attacker: _attacker, planet: _planet),
-                );
-              }
-              return null;
-            },
-          );
-        });
-      },
-    );
-  }
-}
