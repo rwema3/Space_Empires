@@ -58,23 +58,3 @@ class MyApp extends StatelessWidget{
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Space Empires',
-            theme: ThemeData.dark().copyWith(
-              scaffoldBackgroundColor: Colors.black,
-              primaryColor: Colors.indigo,
-              accentColor: Palette.deepBlue,
-              textTheme: TextTheme(
-                headline4: TextStyle(fontSize: 28.sp, color: Colors.white),
-                bodyText2: TextStyle(fontSize: 12.sp, color: Colors.white),
-                headline5: TextStyle(fontSize: 18.sp, color: Colors.white),
-                headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
-                button: TextStyle(
-                    fontSize: 10.sp,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
-              iconTheme: IconThemeData(
-                color: Colors.white,
-                size: 18.sp,
-              ),
-              tabBarTheme: TabBarTheme(
-                labelPadding: EdgeInsets.all(4.sp),
