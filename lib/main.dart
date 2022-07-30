@@ -97,18 +97,6 @@ class MyApp extends StatelessWidget{
             ),
             home: SplashScreen(),
             routes: {
-              SplashScreen.route: (ctx) => SplashScreen(),
-              StoryScreenII.route: (ctx) => StoryScreenII(),
-              StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
-              CharacterSelectionScreen.route: (ctx) =>
-                  CharacterSelectionScreen(),
-                        characterSelected: routeSettings.arguments! as bool));
-              } else if (routeSettings.name == PlanetScreen.route) {
-                final PlanetName _planetName =
-                    routeSettings.arguments! as PlanetName;
-                return MaterialPageRoute(
-                  builder: (context) => PlanetScreen(_planetName),
                 );
               } else if (routeSettings.name == StoryScreenI.route) {
                 final Orientation _orientation =
