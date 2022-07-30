@@ -105,6 +105,11 @@ class MyApp extends StatelessWidget{
                   CharacterSelectionScreen(),
               GameScreen.route: (ctx) => GameScreen(),
               AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
+              
+            onGenerateRoute: (routeSettings) {
+              if (routeSettings.name == InfoScreen.route) {
+                return MaterialPageRoute(
+                    builder: (context) => InfoScreen(
                         characterSelected: routeSettings.arguments! as bool));
               } else if (routeSettings.name == PlanetScreen.route) {
                 final PlanetName _planetName =
