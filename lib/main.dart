@@ -49,7 +49,28 @@ class MyApp extends StatelessWidget{
             return game.currentPlayer;
           },
           create: (ctx) {
-            r     builder: (context) =>
+            return null;
+          },
+        ),
+      ],
+      builder: (_, __) {
+        return Sizer(builder: (context, orientation, deviceType) {
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: 'Space Empires',
+            theme: ThemeData.dark().copyWith(
+              scaffoldBackgroundColor: Colors.black,
+              primaryColor: Colors.indigo,
+              accentColor: Palette.deepBlue,
+              textTheme: TextTheme(
+                headline4: TextStyle(fontSize: 28.sp, color: Colors.white),
+                bodyText2: TextStyle(fontSize: 12.sp, color: Colors.white),
+                headline5: TextStyle(fontSize: 18.sp, color: Colors.white),
+                headline6: TextStyle(fontSize: 16.sp, color: Colors.white),
+                button: TextStyle(
+                    fontSize: 10.sp,
+                    fontWeight: FontWeight.bold,
+                  builder: (context) =>
                       AttackScreen(attacker: _attacker, planet: _planet),
                 );
               }
