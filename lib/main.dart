@@ -70,25 +70,6 @@ class MyApp extends StatelessWidget{
                 button: TextStyle(
                     fontSize: 10.sp,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
-              iconTheme: IconThemeData(
-                color: Colors.white,
-                size: 18.sp,
-              ),
-              tabBarTheme: TabBarTheme(
-                labelPadding: EdgeInsets.all(4.sp),
-                labelStyle:
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
-                unselectedLabelStyle:
-                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.w600),
-              ),
-              elevatedButtonTheme: ElevatedButtonThemeData(
-                style: ButtonStyle(
-                  padding: MaterialStateProperty.all<EdgeInsets>(
-                      EdgeInsets.all(4.sp)),
-                  backgroundColor:
-                      MaterialStateProperty.all<Color>(Palette.deepBlue),
                   builder: (context) =>
                       AttackScreen(attacker: _attacker, planet: _planet),
                 );
