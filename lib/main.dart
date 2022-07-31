@@ -89,6 +89,17 @@ class MyApp extends StatelessWidget{
                       EdgeInsets.all(4.sp)),
                   backgroundColor:
                       MaterialStateProperty.all<Color>(Palette.deepBlue),
+                  textStyle: MaterialStateProperty.all<TextStyle>(
+                    TextStyle(fontSize: 12.sp, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+            ),
+            home: SplashScreen(),
+            routes: {
+              SplashScreen.route: (ctx) => SplashScreen(),
+              StoryScreenII.route: (ctx) => StoryScreenII(),
+              StoryScreenIII.route: (ctx) => StoryScreenIII(),
                   builder: (context) =>
                       AttackScreen(attacker: _attacker, planet: _planet),
                 );
