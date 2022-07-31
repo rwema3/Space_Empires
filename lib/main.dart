@@ -100,10 +100,6 @@ class MyApp extends StatelessWidget{
               SplashScreen.route: (ctx) => SplashScreen(),
               StoryScreenII.route: (ctx) => StoryScreenII(),
               StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
-              CharacterSelectionScreen.route: (ctx) =>
-                  CharacterSelectionScreen(),
-              GameScreen.route: (ctx) => GameScreen(),
              
             onGenerateRoute: (routeSettings) {
               if (routeSettings.name == InfoScreen.route) {
