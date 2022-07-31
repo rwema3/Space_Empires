@@ -104,10 +104,7 @@ class MyApp extends StatelessWidget{
               CharacterSelectionScreen.route: (ctx) =>
                   CharacterSelectionScreen(),
               GameScreen.route: (ctx) => GameScreen(),
-              AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
-              GameLostScreen.route: (ctx) => GameLostScreen(),
-              GameWonScreen.route: (ctx) => GameWonScreen(),
-            },
+             
             onGenerateRoute: (routeSettings) {
               if (routeSettings.name == InfoScreen.route) {
                 return MaterialPageRoute(
