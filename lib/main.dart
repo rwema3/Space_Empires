@@ -97,6 +97,7 @@ class MyApp extends StatelessWidget{
             ),
             home: SplashScreen(),
             routes: {
+              SplashScreen.route: (ctx) => SplashScreen(),
            
             onGenerateRoute: (routeSettings) {
               if (routeSettings.name == InfoScreen.route) {
