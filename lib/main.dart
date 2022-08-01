@@ -95,6 +95,9 @@ class MyApp extends StatelessWidget{
                 ),
               ),
             ),
+           
+            onGenerateRoute: (routeSettings) {
+              if (routeSettings.name == InfoScreen.route) {
                 return MaterialPageRoute(
                     builder: (context) => InfoScreen(
                         characterSelected: routeSettings.arguments! as bool));
