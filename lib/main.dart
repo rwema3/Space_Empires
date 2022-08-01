@@ -99,8 +99,6 @@ class MyApp extends StatelessWidget{
             routes: {
               SplashScreen.route: (ctx) => SplashScreen(),
               StoryScreenII.route: (ctx) => StoryScreenII(),
-              StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
            
             onGenerateRoute: (routeSettings) {
               if (routeSettings.name == InfoScreen.route) {
