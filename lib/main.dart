@@ -95,20 +95,7 @@ class MyApp extends StatelessWidget{
                 ),
               ),
             ),
-            home: SplashScreen(),
-            routes: {
-              SplashScreen.route: (ctx) => SplashScreen(),
-              StoryScreenII.route: (ctx) => StoryScreenII(),
-              StoryScreenIII.route: (ctx) => StoryScreenIII(),
-              WelcomeScreen.route: (ctx) => WelcomeScreen(),
-              CharacterSelectionScreen.route: (ctx) =>
-                  CharacterSelectionScreen(),
-              GameScreen.route: (ctx) => GameScreen(),
-              AttackConclusionScreen.route: (ctx) => AttackConclusionScreen(),
-              GameLostScreen.route: (ctx) => GameLostScreen(),
-           
-            onGenerateRoute: (routeSettings) {
-             
+            h
             },
           );
         });
