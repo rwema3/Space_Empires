@@ -108,6 +108,22 @@ class MyApp extends StatelessWidget{
               GameLostScreen.route: (ctx) => GameLostScreen(),
            
             onGenerateRoute: (routeSettings) {
+              if (routeSettings.name == InfoScreen.route) {
+                return MaterialPageRoute(
+                    builder: (context) => InfoScreen(
+                        characterSelected: routeSettings.arguments! as bool));
+              } else if (routeSettings.name == PlanetScreen.route) {
+                final PlanetName _planetName =
+                    routeSettings.arguments! as PlanetName;
+                return MaterialPageRoute(
+                  builder: (context) => PlanetScreen(_planetName),
+                );
+              } else if (routeSettings.name == StoryScreenI.route) {
+                final Orientation _orientation =
+                    routeSettings.arguments! as Orientation;
+                return MaterialPageRoute(
+                  builder: (context) => StoryScreenI(_orientation),
+                );
              
             },
           );
