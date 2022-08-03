@@ -103,15 +103,6 @@ class MyApp extends StatelessWidget{
               WelcomeScreen.route: (ctx) => WelcomeScreen(),
               CharacterSelectionScreen.route: (ctx) =>
                   CharacterSelectionScreen(),
-                return MaterialPageRoute(
-                  builder: (context) => PlanetScreen(_planetName),
-                );
-              } else if (routeSettings.name == StoryScreenI.route) {
-                final Orientation _orientation =
-                    routeSettings.arguments! as Orientation;
-                return MaterialPageRoute(
-                  builder: (context) => StoryScreenI(_orientation),
-                );
               } else if (routeSettings.name == AttackScreen.route) {
                 final args = routeSettings.arguments! as Map;
                 final Planet _planet = args['planet'] as Planet;
